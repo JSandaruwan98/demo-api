@@ -15,7 +15,7 @@ app.put('/put', (req, res) => {
 })
 
 app.delete('/delete', (req, res) => {
-  res.send('Hello DELETE!')
+  res.send('Hello DELETE')
 }) 
 
 app.listen(port, () => {
